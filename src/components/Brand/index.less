@@ -1,0 +1,312 @@
+.url{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.brand-show-type-1{
+  //padding: 10px 4px 0;
+  position: relative;
+  background-color: #fff;
+  &:before{
+    content: "";
+    position: absolute;
+    z-index: 2;
+    -webkit-transform-origin: 100% 50%;
+    transform-origin: 100% 50%;
+    -webkit-transform: scaleY(.5) translateY(100%);
+    transform: scaleY(.5) translateY(100%);
+    bottom: 0;
+    left: 0;
+    right: auto;
+    top: auto;
+    width: 100%;
+    border-bottom: 2PX solid #c8cacc;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+  }
+  :global{
+    .am-flexbox .am-flexbox-item .am-grid-item-content{
+      padding: 18px 0;
+    }
+  }
+  .url{
+    display: inline-block;
+    width: 160px;
+    height: 120px;
+  }
+  .brand-img-warp{
+    margin: 0;
+    background-color: #F0F2F5;
+  }
+  .brand-img{
+    width: 120px;
+    height: 92px;
+    object-fit: cover;
+  }
+}
+.brand-show-type-2{
+  padding: 16px 0;
+  background: #fff;
+  //overflow: hidden;
+  &:before{
+    content: "";
+    position: absolute;
+    z-index: 2;
+    -webkit-transform-origin: 100% 50%;
+    transform-origin: 100% 50%;
+    -webkit-transform: scaleY(.5) translateY(100%);
+    transform: scaleY(.5) translateY(100%);
+    bottom: 0;
+    left: 0;
+    right: auto;
+    top: auto;
+    width: 100%;
+    border-bottom: 2PX solid #c8cacc;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+  }
+  :global{
+    .swiper-slide{
+      padding-left: 3.5%;
+      box-sizing: border-box;
+    }
+  }
+  .card-item-warp{
+    height: 140px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .card-item{
+    height: 100%;
+    padding: 12px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+  }
+  .store-img{
+    width: 120px;
+    height: 120px;
+    img{
+      position: relative;
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+      &:after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #ddd;
+        border-radius: 50%;
+      }
+    }
+  }
+  .store-info{
+    flex: 1;
+    height: 100%;
+    padding-left: 12px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    //align-content: space-between;
+    overflow: hidden;
+  }
+  .title{
+    margin: 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    width: 100%;
+    font-size: 28px;
+    color: #111112;
+    line-height: 1.5;
+  }
+  .describe{
+    margin: 0;
+    width: 100%;
+    font-size:24px;
+    line-height: 1.5;
+    color: #626266;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+  }
+}
+.brand-show-type-3{
+  padding: 28px 0 40px;
+  background: #fff;
+  //overflow: hidden;
+  &:before{
+    content: "";
+    position: absolute;
+    z-index: 2;
+    -webkit-transform-origin: 100% 50%;
+    transform-origin: 100% 50%;
+    -webkit-transform: scaleY(.5) translateY(100%);
+    transform: scaleY(.5) translateY(100%);
+    bottom: 0;
+    left: 0;
+    right: auto;
+    top: auto;
+    width: 100%;
+    border-bottom: 2PX solid #c8cacc;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+  }
+  :global{
+    .swiper-slide{
+      padding-left: 3.5%;
+      box-sizing: border-box;
+    }
+  }
+  .card-item-warp{
+    height: 140px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .card-item{
+    height: 100%;
+    padding: 12px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+  }
+  .store-img{
+    width: 100px;
+    height: 100px;
+    img{
+      position: relative;
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+      &:after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #ddd;
+        border-radius: 50%;
+      }
+    }
+  }
+  .store-info{
+    flex: 1;
+    height: 100%;
+    padding-left: 12px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    //align-content: space-between;
+    overflow: hidden;
+  }
+  .title{
+    margin: 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    width: 100%;
+    font-size: 28px;
+    color: #111112;
+    line-height: 1.5;
+  }
+  .describe{
+    margin: 0;
+    width: 100%;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #626266;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+  }
+}
+.brand-show-type-4{
+  position: relative;
+  background-color: #fff;
+  &:before{
+    content: "";
+    position: absolute;
+    z-index: 2;
+    -webkit-transform-origin: 100% 50%;
+    transform-origin: 100% 50%;
+    -webkit-transform: scaleY(.5) translateY(100%);
+    transform: scaleY(.5) translateY(100%);
+    bottom: 0;
+    left: 0;
+    right: auto;
+    top: auto;
+    width: 100%;
+    border-bottom: 2PX solid #c8cacc;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+  }
+  :global{
+    .am-flexbox .am-flexbox-item .am-grid-item-content{
+      padding: 10px 0;
+    }
+    .am-carousel{
+      padding: 10px;
+    }
+  }
+  .brand-img-warp{
+    height: 120px;
+  }
+  .brand-img{
+    width: 120px;
+    height: 120px;
+  }
+}
+
+.brand-img-warp{
+  //padding: 0 10px;
+  margin: 0 10px;
+  height: 100%;
+  text-align: center;
+  &:after{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 0;
+    height: 100%;
+  }
+}
+.brand-img{
+  display: inline-block;
+  vertical-align: middle;
+}
+.item-text{
+  width: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+  text-align: center;
+}
+
+
+

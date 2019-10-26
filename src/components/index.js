@@ -8,6 +8,7 @@ import Page from './Page';
 import Loader from './Loader';
 import Brand from './Brand';
 import Activity from './Activity';
+import useScroll from './useScroll';
 
 export {
   TabBar,
@@ -19,5 +20,6 @@ export {
   Page,
   Loader,
   Brand,
-  Activity
+  Activity,
+  useScroll
 };

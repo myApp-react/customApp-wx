@@ -1,23 +1,27 @@
 /**
  * title: 微信预览页面
  */
-import React, { PureComponent } from "react";
+import React, { PureComponent, useState } from "react";
 import style from './index.less';
 import { stringify } from 'qs'
 import { connect } from 'dva'
 import { renderContByType } from '@/utils/index';
-import { Carousel, Grid, TabBar, MallList, TitleBar, Brand, Activity } from '@/components'
+import { Carousel, Grid, TabBar, MallList, TitleBar, Brand, Activity, useScroll } from '@/components'
 // import activityImg from '@/assets/swiper-banner.png'
 // import LazyLoad from 'react-lazyload';
 // import ReactList from 'react-list';
 // import Lazyload  from 'react-lazyload';
 
+
 @connect(({ wxpreview }) => ({ wxpreview }))
 class IndexPages extends PureComponent {
 
   render() {
+
     const { wxpreview } = this.props;
     const { initData, commonUrl } = wxpreview;
+
+
     // console.warn(wxpreview)
 
     return (

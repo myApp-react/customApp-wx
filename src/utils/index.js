@@ -5,6 +5,7 @@ export function pxtovw(px) {
   return `${px / 750 * 100}vw`
 }
 
+
 export function checkImageWH(file, width) {
   return new Promise(function(resolve, reject) {
     let filereader = new FileReader();

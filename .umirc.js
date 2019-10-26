@@ -35,10 +35,10 @@ export default {
       links: [
         { rel: 'icon', href: "/favicon.png" },
       ],
-      scripts: [
-        { src: 'https://cdn.jsdelivr.net/npm/eruda@1.5.4/eruda.min.js' },
-        { content: `eruda.init();` },
-      ],
+      // scripts: [
+      //   { src: 'https://cdn.jsdelivr.net/npm/eruda@1.5.4/eruda.min.js' },
+      //   { content: `eruda.init();` },
+      // ],
       routes: {
         exclude: [
           /models\//,
